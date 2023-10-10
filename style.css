@@ -4,6 +4,7 @@
   --background: #4a5a69;
   --primary: #e2e0d5;
   --secondary: #54a6a8;
+  --tersary: #fada05;
 }
 * {
   margin: 0;
@@ -15,7 +16,7 @@
   color: var(--primary);
 }
 
-/** HEADER **/
+/** NAVBAR **/
 
 .navbar {
   display: flex;
@@ -23,16 +24,22 @@
   text-align: center;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 40px;
+  padding: 2px 40px;
   background-color: var(--background);
 }
 
-.navbar__ul {
+.navbar__list,
+.navbar__list--account {
   display: flex;
   gap: 20px;
 }
 
-.navbar__ul--login {
+.navbar__list li {
+  position: relative;
+  padding: 0;
+}
+
+.navbar__ul--register {
   border: 1px solid var(--primary);
   border-radius: 10px;
   padding: 8px;

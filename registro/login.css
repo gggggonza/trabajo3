@@ -1,0 +1,35 @@
+body {
+  font-family: "Rubik";
+  background: var(--background);
+}
+
+.navbar__login {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.navbar__logo--registro {
+  width: 100px;
+  height: 70px;
+}
+
+.form {
+  padding: 40px 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  align-items: center;
+}
+
+.form__input {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: black;
+  outline: none;
+  border: none;
+}
