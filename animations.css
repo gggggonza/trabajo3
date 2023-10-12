@@ -1,6 +1,7 @@
 /** NAVBAR **/
 
-.navbar__list li a::after {
+.navbar__list li a::after,
+.form__textpw a::after {
   content: "";
   height: 2px;
   width: 100%;
@@ -14,16 +15,21 @@
   transition: transform 0.3s ease;
 }
 
-.navbar__list li a:hover::after {
+.navbar__list li a:hover::after,
+.form__textpw a:hover::after {
   transform-origin: bottom left;
   transform: scaleX(1);
 }
 
-.navbar__ul--register {
+.navbar__ul--register,
+.form__login,
+.navbar__login--register {
   transition: all 0.5s ease-out;
 }
 
-.navbar__ul--register:hover {
+.navbar__ul--register:hover,
+.navbar__login--register:hover,
+.form__login:hover {
   background-color: var(--tersary);
   transition: all 0.2s ease-in;
   color: black;

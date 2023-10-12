@@ -18,17 +18,29 @@
             alt="logo"
             class="navbar__logo--registro"
         /></a>
-        <a href="../registro/register.html">Registrarse</a>
+        <a href="../registro/register.html" class="navbar__login--register"
+          >Registrarse</a
+        >
       </nav>
       <main class="main">
         <form class="form">
-          <h1>Iniciar Sesión</h1>
-          <p>Correo electronico</p>
-          <input type="email" placeholder="Correo" class="form__input" />
-          <p>Contraseña</p>
-          <input type="password" placeholder="Contraseña" class="form__input" />
-          <p>Olvide mi contraseña</p>
-          <a href="">Ingresar</a>
+          <h1 class="form__tittle">Iniciar Sesión</h1>
+          <div class="form__container">
+            <p>Correo electronico</p>
+            <input type="email" placeholder="Correo" class="form__input" />
+            <p>Contraseña</p>
+            <input
+              type="password"
+              placeholder="Contraseña"
+              class="form__input"
+            />
+          </div>
+          <div class="form__textpw">
+            <a href="#" class="form__forgotpw">Olvidé mi contraseña</a>
+          </div>
+          <div class="form__login2">
+            <a href="../index.html" class="form__login">Ingresar</a>
+          </div>
         </form>
       </main>
     </header>
