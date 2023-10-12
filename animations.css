@@ -15,6 +15,10 @@
   transition: transform 0.3s ease;
 }
 
+.form__textpw a::after {
+  position: relative;
+}
+
 .navbar__list li a:hover::after,
 .form__textpw a:hover::after {
   transform-origin: bottom left;
