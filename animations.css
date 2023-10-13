@@ -17,11 +17,13 @@
 
 .form__textpw a::after {
   position: relative;
+  left: 113px;
+  width: 58%;
 }
 
 .navbar__list li a:hover::after,
 .form__textpw a:hover::after {
-  transform-origin: bottom left;
+  transform-origin: center;
   transform: scaleX(1);
 }
 
