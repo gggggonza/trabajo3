@@ -73,3 +73,7 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+
+.form__container--register {
+  gap: 5px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="../style.css" rel="stylesheet" />
+    <link href="../animations.css" rel="stylesheet" />
+    <link href="./login.css" rel="stylesheet" />
+    <title>Registrarse</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar__login">
+          <a href="../index.html">
+            <img
+              src="../img/logo/LOGOOPTI.png"
+              alt="logo"
+              class="navbar__logo--registro"
+          /></a>
+          <a href="../registro/login.html" class="navbar__login--register"
+            >Iniciar Sesión</a
+          >
+        </nav>
+        <main class="main">
+            <form class="form">
+              <h1 class="form__tittle">Registrarse</h1>
+              <div class="form__container form__container--register">
+                <p>Nombre</p>
+                <input
+                  type="text"
+                  placeholder="Nombre"
+                  class="form__input"
+                  required
+                />
+                <p>Apellido</p>
+                <input
+                  type="text"
+                  placeholder="Apellido"
+                  class="form__input"
+                  required
+                />
+                <p>Correo electrónico</p>
+                <input
+                  type="email"
+                  placeholder="Correo"
+                  class="form__input"
+                  required
+                />
+                <p>Contraseña</p>
+                <input
+                  type="password"
+                  required
+                  placeholder="Contraseña"
+                  class="form__input"
+                />
+              </div>
+              <div class="form__login2">
+                <a href="../index.html"
+                  ><input
+                    type="submit"
+                    value="Registrate"
+                    class="form__login form__login--input"
+                  />
+                </a>
+              </div>
+            </form>
+          </main>
+  </body>
+</html>
