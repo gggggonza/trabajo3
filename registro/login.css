@@ -57,6 +57,17 @@ body {
   justify-content: center;
 }
 
+.form__login2 {
+  text-align: center;
+}
+
+.form__login--input {
+  background-color: var(--background);
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
 .form__container {
   display: flex;
   flex-direction: column;
