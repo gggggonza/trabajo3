@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 8px 40px;
-  background-color: var(--background);
+  background: var(--background);
 }
 
 .navbar__list,
@@ -50,4 +50,41 @@
 .navbar__logo {
   height: 50px;
   width: 80px;
+}
+
+/** HERO **/
+
+#hero {
+  background-color: var(--background);
+  padding: 20px;
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .hero__info {
+    justify-content: center;
+    align-items: center;
+  }
+  .hero__info img {
+    margin-left: 450px;
+    min-width: 30%;
+    padding: 30px 5px;
+  }
+
+  .hero__info span {
+    color: var(--tersary);
+  }
+
+  .hero__texto {
+    padding: 20px;
+    position: absolute;
+    font-size: 150px;
+    text-align: left;
+    font-weight: 900;
+    line-height: 110px;
+    width: 30%;
+    align-content: center;
+  }
 }
