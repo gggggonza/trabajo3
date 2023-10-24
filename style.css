@@ -80,11 +80,61 @@
   .hero__texto {
     padding: 20px;
     position: absolute;
+    margin-top: 80px;
     font-size: 150px;
     text-align: left;
     font-weight: 900;
-    line-height: 110px;
-    width: 30%;
+    line-height: 120px;
+    width: 50%;
     align-content: center;
   }
+}
+
+/** INFO **/
+
+#info {
+  padding: 70px 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  gap: 80px;
+
+  background: var(--background);
+}
+
+#info h2 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+#info p {
+  font-size: 26px;
+}
+
+/** INFO CARDS **/
+
+.info__card--container {
+  background: var(--background);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  gap: 10px;
+}
+
+.info__card {
+  border: solid 2px var(--tersary);
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.info__card--container img {
+  height: 150px;
+  width: 130px;
 }

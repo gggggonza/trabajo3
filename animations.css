@@ -41,3 +41,11 @@
   color: black;
   border-color: var(--tersary);
 }
+
+.navbar__ul--login {
+  transition: all 0.1s ease-out;
+}
+
+.navbar__ul--login:hover {
+  color: var(--tersary);
+}
