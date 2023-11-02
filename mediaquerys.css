@@ -272,3 +272,26 @@
     }
   }
 }
+
+/** CELULAR  455px **/
+
+@media (max-width: 455px) {
+  #hero {
+    .hero__texto {
+      font-size: 55px;
+      line-height: 44px;
+      max-width: 90%;
+      margin-top: 45px;
+    }
+  }
+
+  #contact {
+    padding: 30px;
+    .contact__info {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
