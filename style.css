@@ -121,7 +121,7 @@
   font-weight: 800;
 }
 
-#info p {
+.info__p {
   font-size: 26px;
 }
 
@@ -159,6 +159,15 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 30px;
+}
+
+.info__card--texto h3 {
+  font-size: 22px;
+}
+
+.info__card--texto p {
+  font-size: 16px;
 }
 
 /** ABOUT **/
