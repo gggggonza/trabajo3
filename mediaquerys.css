@@ -7,9 +7,10 @@
 
   .navbar__list {
     position: absolute;
-    top: 70px;
-    right: 5%;
-    width: 90%;
+    top: 75px;
+    right: 0;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
     background-color: var(--background);
     border-top: 0;
@@ -19,8 +20,6 @@
     gap: 16px;
     z-index: 2;
     padding: 5px;
-    height: 145px;
-    width: 185px;
     display: none;
   }
 
@@ -282,6 +281,7 @@
       line-height: 44px;
       max-width: 90%;
       margin-top: 45px;
+      padding: 0;
     }
   }
 
