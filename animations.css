@@ -54,9 +54,9 @@
 
 /** CARDS **/
 
-.info__card--container {
+/**.info__card--container {
   animation: animacion__card 2s ease-in 0s 1 normal forwards;
-}
+} */
 
 /** KEYFRAMES **/
 
