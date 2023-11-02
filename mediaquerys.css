@@ -160,6 +160,19 @@
 
   #contact {
     padding: 90px 30px 20px 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+
+    .contact__info {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .contact__redes {
+      margin-top: 18px;
+    }
   }
 }
 
@@ -190,16 +203,72 @@
   }
 
   #contact {
+    padding: 90px 30px 20px 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
+    gap: 40px;
 
     .contact__info {
       display: flex;
       flex-direction: row;
     }
+
     .contact__redes {
-      margin-top: 16px;
+      margin-top: 18px;
+    }
+  }
+}
+
+/** CELULAR  530px**/
+
+@media (max-width: 530px) {
+  #hero {
+    .hero__texto {
+      font-size: 70px;
+      line-height: 60px;
+      max-width: 85%;
+    }
+  }
+
+  .info__card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info__card--container {
+    gap: 20px;
+  }
+
+  .about__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__info img {
+    margin-top: 40px;
+  }
+
+  .about__text {
+    text-align: center;
+    width: 80%;
+  }
+
+  #contact {
+    padding: 90px 30px 20px 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+
+    .contact__info {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .contact__redes {
+      margin-top: 18px;
     }
   }
 }
