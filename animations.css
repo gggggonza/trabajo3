@@ -1,6 +1,6 @@
 /** NAVBAR **/
 
-.navbar__list li a::after,
+.list--home li a::after,
 .form__textpw a::after {
   content: "";
   height: 2px;
@@ -21,7 +21,7 @@
   width: 58%;
 }
 
-.navbar__list li a:hover::after,
+.list--home li a:hover::after,
 .form__textpw a:hover::after {
   transform-origin: center;
   transform: scaleX(1);

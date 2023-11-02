@@ -27,12 +27,13 @@
           ><img src="./img/menu/menuburga.png" alt="menu"
         /></label>
         <input type="checkbox" id="toggle-menu" />
-        <ul class="navbar__list">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Producto</a></li>
-          <li><a href="#">¿Quienes Somos?</a></li>
-          <li><a href="#">Contactenos</a></li>
-          <ul class="navbar__list--account">
+        <div class="navbar__list">
+          <div class="navbar__list list--home">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Producto</a></li>
+            <li><a href="#">¿Quienes Somos?</a></li>
+            <li><a href="#">Contactenos</a></li>
+          </div>
             <li>
               <a href="./registro/login.html" class="navbar__ul--login"
                 >Iniciar Sesión
@@ -43,7 +44,6 @@
                 >Registrarse
               </a>
             </li>
-          </ul>
         </ul>
       </nav>
     </header>
