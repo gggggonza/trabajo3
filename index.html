@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
     <link href="./animations.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./mediaquerys.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>OptiBox</title>
   </head>
   <body>
@@ -14,23 +23,27 @@
         <a href="#"
           ><img src="./img/logo/LOGOOPTI.png" alt="logo" class="navbar__logo" />
         </a>
+        <label for="toggle-menu" class="menu__label"
+          ><img src="./img/menu/menuburga.png" alt="menu"
+        /></label>
+        <input type="checkbox" id="toggle-menu" />
         <ul class="navbar__list">
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Producto</a></li>
           <li><a href="#">¿Quienes Somos?</a></li>
           <li><a href="#">Contactenos</a></li>
-        </ul>
-        <ul class="navbar__list--account">
-          <li>
-            <a href="./registro/login.html" class="navbar__ul--login"
-              >Iniciar Sesión
-            </a>
-          </li>
-          <li>
-            <a href="./registro/register.html" class="navbar__ul--register"
-              >Registrarse
-            </a>
-          </li>
+          <ul class="navbar__list--account">
+            <li>
+              <a href="./registro/login.html" class="navbar__ul--login"
+                >Iniciar Sesión
+              </a>
+            </li>
+            <li>
+              <a href="./registro/register.html" class="navbar__ul--register"
+                >Registrarse
+              </a>
+            </li>
+          </ul>
         </ul>
       </nav>
     </header>
@@ -47,7 +60,6 @@
       <!-- INFO -->
 
       <section id="info">
-        <h2>¿Por qué es el mejor?</h2>
         <p>
           Este producto ha sido diseñado para facilitar el transporte de cargas
           en su bicicleta, de una manera cómoda y versátil. Usted podrá utilizar
@@ -57,49 +69,120 @@
           reciclado y su posibilidad de extender sus dimensiones como tambien
           sus 8kg de capacidad de carga.
         </p>
+        <div class="info__card--container animacion__card">
+          <div class="info__card">
+            <img src="./img/contenido/muestra.png" alt="" />
+            <div class="info__card--texto">
+              <h3>facil de usar</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                distinctio, incidunt nam praesentium aperiam neque
+              </p>
+            </div>
+          </div>
+          <div class="info__card">
+            <img src="./img/contenido/muestra.png" alt="" />
+            <div class="info__card--texto">
+              <h3>practico</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                distinctio, incidunt nam praesentium aperiam neque
+              </p>
+            </div>
+          </div>
+          <div class="info__card">
+            <img src="./img//contenido/muestra.png" alt="" />
+            <div class="info__card--texto">
+              <h3>ecologico</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                distinctio, incidunt nam praesentium aperiam neque
+              </p>
+            </div>
+          </div>
+          <div class="info__card">
+            <img src="./img/contenido/muestra.png" alt="" />
+            <div class="info__card--texto">
+              <h3>espacioso</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                distinctio, incidunt nam praesentium aperiam neque
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
-      <div class="info__card--container">
-        <div class="info__card">
-          <img src="./img/contenido/muestra.png" alt="" />
-          <h3>facil de usar</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            distinctio, incidunt nam praesentium aperiam neque
-          </p>
+
+      <!--- ABOUT --->
+
+      <section id="about">
+        <div class="about__info">
+          <div class="about__text">
+            <h2>Quienes somos</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              deleniti sed quo aliquam cum in! Ipsa voluptates nulla
+              perspiciatis nesciunt ea? Officiis recusandae, voluptatibus
+              tenetur iusto debitis explicabo repudiandae laudantium!
+            </p>
+          </div>
+          <img src="./img/contenido/producto.png" alt="imagen de muestra" />
         </div>
-        <div class="info__card">
-          <img src="./img/contenido/muestra.png" alt="" />
-          <h3>practico</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            distinctio, incidunt nam praesentium aperiam neque
-          </p>
+      </section>
+
+      <!-- CONTACTENOS-->
+
+      <section id="contact">
+        <form class="contact__form">
+          <input
+            type="text"
+            placeholder="Nombre"
+            required
+            class="contact__form--input"
+          />
+          <input
+            type="email"
+            placeholder="Correo"
+            required
+            class="contact__form--input"
+          />
+          <input
+            type="text"
+            placeholder="Deje su mensaje"
+            required
+            class="contact__form--text"
+          />
+          <input
+            type="submit"
+            value="Enviar"
+            required
+            class="contact__form--button"
+          />
+        </form>
+        <div class="contact__info">
+          <div class="contact__list">
+            <h2>Contáctanos</h2>
+            <div class="contact__list--info">
+              <p>direccion del lugar</p>
+              <p>horrio de atencion</p>
+              <p>numero de telefono</p>
+              <p>mail</p>
+            </div>
+          </div>
+          <div class="contact__redes">
+            <h2>Seguinos</h2>
+            <div class="contact__redes--icon">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
         </div>
-        <div class="info__card">
-          <img src="./img//contenido/muestra.png" alt="" />
-          <h3>ecologico</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            distinctio, incidunt nam praesentium aperiam neque
-          </p>
-        </div>
-        <div class="info__card">
-          <img src="./img/contenido/muestra.png" alt="" />
-          <h3>facil de transportar</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            distinctio, incidunt nam praesentium aperiam neque
-          </p>
-        </div>
-        <div class="info__card">
-          <img src="./img/contenido/muestra.png" alt="" />
-          <h3>espacioso</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            distinctio, incidunt nam praesentium aperiam neque
-          </p>
-        </div>
-      </div>
+      </section>
     </main>
+    <footer>
+      <img src="./img/logo/LOGOOPTI.png" alt="logo" />
+    </footer>
   </body>
 </html>
