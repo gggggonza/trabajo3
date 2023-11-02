@@ -1,3 +1,58 @@
+/** DESKTOP **/
+
+@media (max-width: 1024px) {
+  #hero {
+    .hero__texto {
+      font-size: 105px;
+      line-height: 80px;
+      width: 50%;
+    }
+
+    .hero__info img {
+      margin-left: 280px;
+      height: 480px;
+      width: 500px;
+      padding: 0 10px;
+    }
+  }
+
+  .info__card {
+    max-width: 80%;
+  }
+
+  .info__card--container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/** DESKTOP **/
+
+@media (max-width: 1170px) {
+  #hero {
+    .hero__texto {
+      font-size: 105px;
+      line-height: 80px;
+      width: 50%;
+    }
+    .hero__info img {
+      margin-left: 280px;
+      height: 480px;
+      width: 500px;
+      padding: 0 10px;
+    }
+  }
+
+  .info__card {
+    max-width: 80%;
+  }
+
+  .info__card--container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /** TABLET **/
 
 @media (max-width: 992px) {
@@ -50,60 +105,60 @@
   .list--home {
     display: flex;
   }
-}
 
-/** HERO **/
+  /** HERO **/
 
-#hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px;
+  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
 
-  .hero__info img {
-    margin-left: 280px;
-    height: 480px;
-    width: 500px;
-    padding: 0 10px;
+    .hero__info img {
+      margin-left: 280px;
+      height: 480px;
+      width: 500px;
+      padding: 0 10px;
+    }
+
+    .hero__texto {
+      font-size: 100px;
+      line-height: 80px;
+      width: 70%;
+    }
   }
 
-  .hero__texto {
-    font-size: 100px;
-    line-height: 80px;
-    width: 70%;
+  /** INFO **/
+
+  #info p {
+    font-size: 22px;
+    font-weight: 100;
   }
-}
 
-/** INFO **/
+  .info__card {
+    max-width: 80%;
+    gap: 35px;
+  }
 
-#info p {
-  font-size: 22px;
-  font-weight: 100;
-}
+  .info__card--container {
+    display: flex;
+    flex-direction: column;
+  }
 
-.info__card {
-  max-width: 80%;
-  gap: 35px;
-}
+  .info__card--texto {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-align: left;
+  }
 
-.info__card--container {
-  display: flex;
-  flex-direction: column;
-}
+  .info__card--texto h3 {
+    font-size: 25px;
+  }
 
-.info__card--texto {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  text-align: left;
-}
-
-.info__card--texto h3 {
-  font-size: 25px;
-}
-
-.info__card--texto p {
-  font-size: 15px;
+  .info__card--texto p {
+    font-size: 15px;
+  }
 }
 
 /** HERO MAS CHICO PARA 800px**/
@@ -272,7 +327,7 @@
   }
 }
 
-/** CELULAR  455px **/
+/** CELULAR  455px hasta 350px **/
 
 @media (max-width: 455px) {
   #hero {
